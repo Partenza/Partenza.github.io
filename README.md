@@ -1,2 +1,1 @@
-# partenza.github.io
-init
+# Partenza's Gitbook

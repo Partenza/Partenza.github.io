@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "gitbook serve --log debug",
+    "build": "gitbook build --log debug"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "NODE_DEBUG=gh-pages node scripts/push.js"
+    }
+  },
+  "devDependencies": {
+    "execa": "^1.0.0",
+    "gh-pages": "^2.0.1",
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-advanced-emoji": "^0.2.2",
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-git-author": "^1.1.2",
+    "husky": "^1.1.3"
+  }
+}
